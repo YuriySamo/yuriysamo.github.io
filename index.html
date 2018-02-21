@@ -7,8 +7,13 @@
 <meta charset="UTF-8">
 
 <link rel="shortcut icon" href="favicon.png" type="image/png">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css" >
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -20,15 +25,38 @@
 <div class="container">
   <!-- Content here -->
 
-<div><h2>Информация для собрания "Славутич"</h2></div>
+<div><h2><a href="#" class="navbar-brand"><img src="images/logo1.ico" width="30" height="30" alt="logo"></a>Информация для собрания "Славутич"</h2></div>
 
-<nav class="main-menu">
-	<ul> 
-		<li name="li-menu"><a href="">Первый пункт</a></li>
-		<li name="li-menu"><a href="">Второй пункт</a></li>
-		<li name="li-menu"><a href="">Третий пункт</a></li>
-		<li name="li-menu"><a href="">Четвёртый пункт</a></li>
-	</ul>
+<nav class="navbar navbar-toogleable-sm bg-info navbar-inverse">
+
+	<div class="container">
+
+	<button class="navbar-toogler" data-toogle="collapse" data-target="#mainNav">
+		<span class="navbar-toogler-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collapse" id="mainNav">
+		
+		<div class="navbar-nav">
+
+		
+     
+     		<a class="nav-item nav-link active" href="#">Home</a>
+     
+     		<a class="nav-item nav-link" href="#" >Next</a>
+
+     		<a class="nav-item nav-link"  href="#">Tools</a>
+     
+     		<a class="nav-item nav-link"  href="#">Last</a>
+     	</div>
+
+
+ 
+
+
+	</div>
+</div>
+
 </nav>
 
 <div class="row">
