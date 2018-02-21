@@ -1,2 +1,2 @@
 # yuriysamo.github.io
-Test page
+This is a test page for congregation's info. 
