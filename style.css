@@ -1,0 +1,40 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+	font-family: Calibri, Verdana, sans-serif; 
+}
+
+a{
+	text-decoration: none;
+	color: #191970;
+}
+
+
+.main-menu{
+	background-color: #DCDFE4;
+	list-style-type: none;
+	padding: 5px;
+}
+
+ .main-menu li{
+	display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+
+
+
+.main-div{
+  padding: 0px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.alert-success{
+   padding-left: 30px;
+}
