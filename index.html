@@ -1,218 +1,398 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-<html>
-<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Графики собрания</title>
-<meta charset="UTF-8">
-
-<link rel="shortcut icon" href="favicon.png" type="image/png">
-<link rel="stylesheet" href="style.css" >
-
-
-
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-
-<body>
-	
-
-
+    <title>Графики собрания</title>
+  </head>
+  <body>
+  
 <div class="container">
-  <!-- Content here -->
 
-<div><h2><a href="#" class="navbar-brand"><img src="images/logo1.ico" width="30" height="30" alt="logo"></a>Информация для собрания "Славутич"</h2></div>
-
-<!-- <nav class="navbar navbar-toogleable-sm bg-info navbar-inverse">
-
-	<div class="container">
-
-	<button class="navbar-toogler" data-toogle="collapse" data-target="#mainNav">
-		<span class="navbar-toogler-icon"></span>
-	</button>
-	
-	<div class="collapse navbar-collapse" id="mainNav">
-		
-		<div class="navbar-nav">
-
-		
-     
-     		<a class="nav-item nav-link active" href="#">Home</a>
-     
-     		<a class="nav-item nav-link" href="#" >Next</a>
-
-     		<a class="nav-item nav-link"  href="#">Tools</a>
-     
-     		<a class="nav-item nav-link"  href="#">Last</a>
-     	</div>
-
-
- 
-
-
-	</div>
-</div>
-
-</nav> -->
+  <h2><img src="images/logo1.ico" width="30" height="30" alt="logo"> Графики собрания  <span class="badge badge-secondary"> "Славутич" </span></h2>
 
 
 
-<div class="content">
-	
-<ul class="main-menu">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><strong>Графики</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<li><a href="#public-list">Публичная встреча</a></li>
-	<li><a href="#">Темы публичных речей</a></li>
-	<li><a href="#">Христианская жизнь</a></li>
-	<li><a href="#">График уборки</a></li>
-	<li><a href="#">Посещение районного</a></li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#public-list">График публичных встреч<span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#life">Учебные задания</a>
+      </li>
+      
+      
+  </div>
+</nav>
 
 
-</ul>
-
-</div>
-
-
-
-
-
-<div class="row">
-
-	<p class="lead">График публичных встреч</p>
+  <p class="lead mt-4">График публичных встреч</p>
 
 <table class="table table-striped table-hover table-sm" id="public-list">
-	<thead>
-		<tr class="table-info">
-			<th>Дата</th>
-			<th>Председатель</th>
-			<th>Ведущий изучения СБ</th>
-			<th>Чтец</th>
-		</tr>
-	</thead>
+  <thead>
+    <tr class="table-info">
+      <th>Дата</th>
+      <th>Председатель</th>
+      <th>Ведущий СБ</th>
+      <th>Чтец</th>
+    </tr>
+  </thead>
 
-	<tbody>
-		
+  <tbody>
+    
 <tr>
-	<td>25 февраля</td>
-	<td>Максим Х.</td>
-	<td>Максим Х.</td>
-	<td>Вася Б.</td>
+  <td>25 февраля</td>
+  <td>Максим Х.</td>
+  <td>Максим Х.</td>
+  <td>Вася Б.</td>
 </tr>
 
 <tr>
-	<td>4 марта</td>
-	<td>Юра С.</td>
-	<td>Максим Х.</td>
-	<td>Паша Г.</td>
+  <td>4 марта</td>
+  <td>Юра С.</td>
+  <td>Максим Х.</td>
+  <td>Паша Г.</td>
 </tr>
 
 <tr>
-	<td>11 марта</td>
-	<td>Юра Г.</td>
-	<td>Максим Х.</td>
-	<td>Дима С.</td>
+  <td>11 марта</td>
+  <td>Юра Г.</td>
+  <td>Максим Х.</td>
+  <td>Дима С.</td>
 </tr>
 
 <tr>
-	<td>18 марта</td>
-	<td>Олег В.</td>
-	<td>Максим Х.</td>
-	<td>Юра Г.</td>
+  <td>18 марта</td>
+  <td>Олег В.</td>
+  <td>Максим Х.</td>
+  <td>Юра Г.</td>
 </tr>
 
 <tr>
-	<td>25 марта</td>
-	<td>Паша Г.</td>
-	<td>Максим Х.</td>
-	<td>Игорь Л.</td>
+  <td>25 марта</td>
+  <td>Паша Г.</td>
+  <td>Максим Х.</td>
+  <td>Игорь Л.</td>
 </tr>
 
 <tr>
-	<td>1 апреля</td>
-	<td>Дима С.</td>
-	<td>Максим Х.</td>
-	<td>Коля Т.</td>
+  <td>1 апреля</td>
+  <td>Дима С.</td>
+  <td>Максим Х.</td>
+  <td>Коля Т.</td>
 </tr>
 
 <tr>
-	<td>8 апреля</td>
-	<td>Вася Б.</td>
-	<td>Максим Х.</td>
-	<td>Вася Б.</td>
+  <td>8 апреля</td>
+  <td>Вася Б.</td>
+  <td>Максим Х.</td>
+  <td>Вася Б.</td>
 </tr>
 
 <tr>
-	<td>15 апреля</td>
-	<td>Игорь Л.</td>
-	<td>Максим Х.</td>
-	<td>Паша Г.</td>
+  <td>15 апреля</td>
+  <td>Игорь Л.</td>
+  <td>Максим Х.</td>
+  <td>Паша Г.</td>
 </tr>
 
 <tr>
-	<td>21 апреля</td>
-	<td><strong>Конгресс</strong></td>
-	<td><strong>Чернигов</strong></td>
-	<td><strong>ДрамТеатр</strong></td>
+  <td>21 апреля</td>
+  <td><strong>Конгресс</strong></td>
+  <td><strong>Чернигов</strong></td>
+  <td><strong>ДрамТеатр</strong></td>
 </tr>
 
 <tr>
-	<td>29 апреля</td>
-	<td>Коля Т.</td>
-	<td>Максим Х.</td>
-	<td>Дима С.</td>
+  <td>29 апреля</td>
+  <td>Коля Т.</td>
+  <td>Максим Х.</td>
+  <td>Дима С.</td>
 </tr>
 
 <tr>
-	<td>6 мая</td>
-	<td>Паша Г.</td>
-	<td>Максим Х.</td>
-	<td>Игорь Л.</td>
+  <td>6 мая</td>
+  <td>Паша Г.</td>
+  <td>Максим Х.</td>
+  <td>Игорь Л.</td>
 </tr>
 
 <tr>
-	<td>13 мая</td>
-	<td>Юра Г.</td>
-	<td>Максим Х.</td>
-	<td>Коля Т.</td>
+  <td>13 мая</td>
+  <td>Юра Г.</td>
+  <td>Максим Х.</td>
+  <td>Коля Т.</td>
 </tr>
 
 <tr>
-	<td>20 мая</td>
-	<td>Олег В.</td>
-	<td>Максим Х.</td>
-	<td>Юра Г.</td>
+  <td>20 мая</td>
+  <td>Олег В.</td>
+  <td>Максим Х.</td>
+  <td>Юра Г.</td>
 </tr>
-	</tbody>
-	
+  </tbody>
+  </table>
+
+
+<p class="lead mt-4">График учебных заданий</p>
+
+
+<table class="table table-bordered table-sm" id="life">
+  <thead>
+    <tr class="table-success">
+      <th scope="col">8 марта</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Налесник Николай</td>
+    </tr>
+    <tr>
+      <th scope="row">Первый разговор <span class="badge badge-primary"> 1 </span></th>
+      <td colspan="2" class="text-center font-italic">Видео <i class="fas fa-film"></i></td>
+      
+     </tr>
+    <tr>
+      <th scope="row">Второй разговор <span class="badge badge-secondary"> 2 </span></th>
+      <td>Марковская Валентина</td>
+      <td>Репич Валентина</td> 
+    </tr>
+
+    <tr>
+      <th scope="row">Изучение Библии <i class="fas fa-briefcase"></th>
+      <td>Бабарико Лариса</td>
+      <td>Ремез Нина</td>
+     
+    </tr>
+  </tbody>
+
+
+  <thead>
+    <tr class="table-success">
+      <th scope="col">15 марта</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Самборский Давид</td>
+    </tr>
+    <tr>
+      <th scope="row">Первый разговор <span class="badge badge-primary"> 1 </span></th>
+      <td>Ладная Анна</td>
+      <td>Кадушкина Валентина</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Второй разговор <span class="badge badge-secondary"> 2 </span></th>
+      <td colspan="2" class="text-center font-italic">Видео <i class="fas fa-film"></i></td>
+    
+    </tr>
+
+    <tr>
+      <th scope="row">Изучение Библии <i class="fas fa-briefcase"></th>
+      <td>Ничипоренко Людмила</td>
+      <td>Ковальчук Ирина</td>
+     
+    </tr>
+  </tbody>
 
 
 
+  <thead>
+    <tr class="table-success">
+      <th scope="col">22 марта</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Лудченко Илья</td>
+    </tr>
+    <tr>
+      <th scope="row">Первый разговор <span class="badge badge-primary"> 1 </span></th>
+      
+      <td>Щуровская Анжела</td>
+      <td>Прокопенко Наталья</td> 
+      
+    </tr>
+    <tr>
+      <th scope="row">Второй разговор <span class="badge badge-secondary"> 2 </span></th>
+      <td>Ковальчук Татьяна</td>
+      <td>Самборская Надежда</td>
+    </tr>
 
+    <tr>
+      <th scope="row">Третий разговор <span class="badge badge-success"> 3 </span></th>
+      <td colspan="2" class="text-center font-italic">Видео <i class="fas fa-film"></i></td>
+     
+    </tr>
+  </tbody>
+
+
+
+  <thead>
+    <tr class="table-success">
+      <th scope="col">29 марта</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Худолей Александр</td>
+    </tr>
+ <tr>
+      <th scope="row">Третий разговор <span class="badge badge-success"> 3 </span></th>
+      <td>Лудченко Елена</td>
+      <td>Ящук Ирина</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">Четвёртый разговор <span class="badge badge-warning"> 4 </span></th>
+      
+      <td>Сафронова Елена</td>
+      <td>Таран Любовь</td>
+    
+    </tr>
+
+    <tr>
+      <th scope="row">Речь <i class="far fa-clipboard"></i></th>
+      <td colspan="2">Пидоренко Алексей</td>
+     
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-bordered table-sm">
+  <thead class="table-warning">
+    <tr>
+      <th scope="col">5 апреля</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Бабарико Константин</td>
+    </tr>
+    <tr>
+      <th scope="row">Первый разговор <span class="badge badge-primary"> 1 </span></th>
+      <td colspan="2" class="text-center font-italic">Видео <i class="fas fa-film"></i></td>
+      
+     </tr>
+    <tr>
+      <th scope="row">Второй разговор <span class="badge badge-secondary"> 2 </span></th>
+      <td>Худолей Гульнара</td>
+      <td>Самборская Виктория</td> 
+    </tr>
+
+    <tr>
+      <th scope="row">Изучение Библии <i class="fas fa-briefcase"></th>
+      <td>Званчук Галина</td>
+      <td>Лудченко Алеся</td>
+     
+    </tr>
+  </tbody>
+  <thead class="table-warning">
+    <tr>
+      <th scope="col">12 апреля</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Сорока Дмитрий</td>
+    </tr>
+    <tr>
+      <th scope="row">Первый разговор <span class="badge badge-primary"> 1 </span></th>
+      <td>Касий Валентина</td>
+      <td>Дынник Елена</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Второй разговор <span class="badge badge-secondary"> 2 </span></th>
+      <td colspan="2" class="text-center font-italic">Видео <i class="fas fa-film"></i></td>
+    
+    </tr>
+
+   <tr>
+      <th scope="row">Речь <i class="far fa-clipboard"></i></th>
+      <td colspan="2">Кузнецов Антон</td>
+     
+    </tr>
+     
+    </tr>
+  </tbody>
+
+   <thead>
+    <tr class="table-warning">
+      <th scope="col">19 апреля</th>
+      <th scope="col">Ведущий</th>
+      <th scope="col">Помощник</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Чтение Библии <i class="fas fa-book"></i></th>
+      <td colspan="2">Самборский Николай</td>
+    </tr>
+    <tr>
+      <th scope="row">Первый разговор <span class="badge badge-primary"> 1 </span></th>
+      
+      <td>Косинская Елена</td>
+      <td>Дынник Елена</td> 
+      
+    </tr>
+    <tr>
+      <th scope="row">Второй разговор <span class="badge badge-secondary"> 2 </span></th>
+      <td>Болдуева Екатерина</td>
+      <td>Налесник Вера</td>
+    </tr>
+
+    <tr>
+      <th scope="row">Третий разговор <span class="badge badge-success"> 3 </span></th>
+      <td colspan="2" class="text-center font-italic">Видео <i class="fas fa-film"></i></td>
+     
+    </tr>
+  </tbody>
 </table>
 
 
 
-
-
-    
-  </div>
-
-
-
-
-
 </div>
 
 
-<script src="scripts/test.js"></script>
-<script src="scripts/time.js"></script>
-
-
-
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
