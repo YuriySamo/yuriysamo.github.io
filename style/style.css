@@ -140,3 +140,16 @@
 		font-size: 35%;
 	}
 }
+
+@media screen and (max-width: 339px){
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+		
+	}
+	#tbody2 td{
+		font-size: 30%;
+	}
+}
