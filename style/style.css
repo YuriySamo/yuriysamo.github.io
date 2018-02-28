@@ -8,6 +8,134 @@
 	font-size: 1.8em;
 }
 
-#christMeet{
+#theadMain{
+  background-color: #eef2e3;
+}
+
+#theadSec{
+  background-color: #dbecea;
+}
+
+#h6-mayor{
+	padding-top: 3px; 
+}
+
+
+#table1{
+	border-collapse: separate;
+	padding: 20px;
+}
+
+#table2{
+	border-collapse: separate;
+	padding: 20px;
+    display: none;
+}
+
+#tbody1 td{
+	font-size: 0.95em;
+}
+
+.weekend{
+	color: #9f1717;
+}
+
+@media screen and (max-width: 992px){
+	#tbody1 td{
+		font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 846px){
+	#tbody1 td{
+		font-size: 68%;
+	}
+}
+
+@media screen and (max-width: 818px){
+	#tbody1 td{
+		font-size: 65%;
+	}
+}
+
+
+@media screen and (max-width: 786px){
+	#tbody1 td{
+		font-size: 63%;
+	}
 	
+}
+
+@media screen and (max-width: 768px){
+
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+		column-width: 120%;
+	
+	}
+}
+
+@media screen and (max-width: 525px){
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+	}
+	#tbody2 td{
+		font-size: 80%;
+	}
+}
+
+
+@media screen and (max-width: 462px){
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+
+	}
+	#tbody2 td{
+		font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 434px){
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+	}
+	#tbody2 td{
+		font-size: 60%;
+	}
+}
+
+@media screen and (max-width: 406px){
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+	}
+	#tbody2 td{
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 379px){
+	#table1 {
+		display: none;
+	}
+    #table2 {
+		display: block;
+	}
+	#tbody2 td{
+		font-size: 40%;
+	}
 }
