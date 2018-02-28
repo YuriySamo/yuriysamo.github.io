@@ -147,10 +147,10 @@
 	}
     #table2 {
 		display: block;
+		padding: 0;
 		
 	}
 	#tbody2 td{
 		font-size: 30%;
-		overflow: auto;
 	}
 }
