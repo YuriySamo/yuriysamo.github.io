@@ -40,6 +40,14 @@
 	color: #9f1717;
 }
 
+li {
+    list-style-type: none;
+   }
+.dropdownCong{
+    margin-left: 2px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 2px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+
 @media screen and (max-width: 992px){
 	#tbody1 td{
 		font-size: 70%;
