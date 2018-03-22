@@ -49,6 +49,10 @@ li {
     font-size: 0.8em;
    }
 
+#public-list{
+	font-size: 0.9em;
+}
+
 @media screen and (max-width: 992px){
 	#tbody1 td{
 		font-size: 70%;
