@@ -46,6 +46,7 @@ li {
 .dropdownCong{
     margin-left: 2px; /* Отступ слева в браузере IE и Opera */
     padding-left: 2px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    font-size: 0.8em;
    }
 
 @media screen and (max-width: 992px){
