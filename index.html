@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
 
-    <link rel="stylesheet" href="style/style_table.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
-
     <title>Графики собрания</title>
   </head>
   <body>
@@ -197,108 +194,239 @@
 
 
 
-<hr/ width="70%">
-
-<!-- Новый календарь по примеру SoloLearn -->
-<div class="section">
-<h1><span>График дежурства групп</span></h1>
-
-<table>
- <tr class="weekDays">
-  <th><strong>Группа</strong></th>
-  <th>ПН</th>
-  <th>ВТ</th>
-  <th>СР</th>
-  <th>ЧТ</th>
-  <th>ПТН</th>
-  <th>СБ</th>
-  <th>ВС</th>
- </tr>  
-
-
- <tr>
-  <th scope="row" class="text-center h4"><span class="badge badge-secondary"> 3 </span></th>
-  <td class="selected">23 апреля</td>
-  <td>24 апреля</td>
-  <td>25 апреля</td>
-  <td>26 апреля</td>
-  <td>27 апреля</td>
-  <td>28 апреля</td>
-  <td>29 апреля</td>
+<p class="lead mt-4" id="clean">График уборки групп <i class="fas fa-users"></i></p>
+<table class="table table-bordered table-hover" id="table1">
+  
+<thead class="" id="theadMain">
+  
+ <tr id="trMain">
+   <tr class="text-center">
+      <th>Гр№</th>
+      <th>Пн</th>
+      <th>Вт</th>
+      <th>Ср</th>
+      <th>Чт</th>
+      <th>Пт</th>
+      <th class="weekend">Сб</th>
+      <th class="weekend">Вс</th>
+    </tr>
+ </tr>
  </tr>
 
-  <tr>
-    <th scope="row" class="text-center h4"><span class="badge badge-primary"> 4 </span></th>
-  <td>30 апреля</td>
-  <td class="selected">1 мая</td>
-  <td>2 мая</td>
-  <td>3 мая</td>
-  <td>4 мая</td>
-  <td>5 мая</td>
-  <td>6 мая</td>
+</thead>
+
+<tbody id="tbody1">
+   <tr id="trMain">
+  <th scope="row" class="text-center h4"> <span class="badge badge-secondary"> 3 </span></th>
+  <td>26 февраля</td>
+  <td>27 февраля</td>
+  <td>28 февраля</td>
+  <td>1 марта&nbsp&nbsp&nbsp&nbsp</td>
+  <td>2 марта&nbsp&nbsp&nbsp&nbsp</td>
+  <td>3 марта&nbsp&nbsp&nbsp&nbsp</td>
+  <td>4 марта&nbsp&nbsp&nbsp&nbsp</td>
  </tr>
-
- <tr>
-  <th scope="row" class="text-center h4"><span class="badge badge-success"> 1 </span></th>
-  <td>7 мая</td>
-  <td>8 мая</td>
-  <td class="selected">9 мая</td>
-  <td>10 мая</td>
-  <td>11 мая</td>
-  <td>12 мая</td>
-  <td>13 мая</td>
- </tr>
-
-  <tr>
-    <th scope="row" class="text-center h4"><span class="badge badge-warning"> 2 </span></th>
-  <td>14 мая</td>
-  <td>15 мая</td>
-  <td>16 мая</td>
-  <td class="selected">17 мая</td>
-  <td>18 мая</td>
-  <td>19 мая</td>
-  <td>20 мая</td>
- </tr>
-
-
-  <tr>
-    <th scope="row" class="text-center h4"><span class="badge badge-secondary"> 3 </span></th>
-  <td>21 мая</td>
-  <td>22 мая</td>
-  <td>23 мая</td>
-  <td>24 мая</td>
-  <td class="selected">25 мая</td>
-  <td>26 мая</td>
-  <td>27 мая</td>
- </tr>
-
    <tr>
-    <th scope="row" class="text-center h4"><span class="badge badge-primary"> 4 </span></th>
-  <td>28 мая</td>
-  <td>29 мая</td>
-  <td>30 мая</td>
-  <td>31 мая</td>
-  <td>1 июня</td>
-  <td class="selected">2 июня</td>
-  <td>3 июня</td>
+  <th scope="row" class="text-center h4"><span class="badge badge-primary"> 4 </span></th>
+  <td>5 марта</td>
+  <td>6 марта</td>
+  <td>7 марта</td>
+  <td>8 марта</td>
+  <td>9 марта</td>
+  <td>10 марта</td>
+  <td>11 марта</td>
  </tr>
-
- <tr>
+   <tr>
   <th scope="row" class="text-center h4"><span class="badge badge-success"> 1 </span></th>
-  <td>4 июня</td>
-  <td>5 июня</td>
-  <td>6 июня</td>
-  <td>7 июня</td>
-  <td>8 июня</td>
-  <td>9 июня</td>
-  <td class="selected">10 июня</td>
+  <td>12 марта</td>
+  <td>13 марта</td>
+  <td>14 марта</td>
+  <td>15 марта</td>
+  <td>16 марта</td>
+  <td>17 марта</td>
+  <td>18 марта</td>
  </tr>
+   <tr>
+  <th scope="row" class="text-center h4"><span class="badge badge-warning"> 2 </span></th>
+  <td>19 марта</td>
+  <td>20 марта</td>
+  <td>21 марта</td>
+  <td>22 марта</td>
+  <td>23 марта</td>
+  <td>24 марта</td>
+  <td>25 марта</td>
+ </tr>
+   <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-secondary"> 3 </span></th>
+      <td>26 марта</td>
+      <td>27 марта</td>
+      <td>28 марта</td>
+      <td>29 марта</td>
+      <td>30 марта</td>
+      <td>31 марта</td>
+      <td>01 апреля</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-primary"> 4 </span></th>
+      <td>02 апреля</td>
+      <td>03 апреля</td>
+      <td>04 апреля</td>
+      <td>05 апреля</td>
+      <td>06 апреля</td>
+      <td>07 апреля</td>
+      <td>08 апреля</td>
+    </tr>
+     <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-success"> 1 </span></th>
+      <td>09 апреля</td>
+      <td>10 апреля</td>
+      <td>11 апреля</td>
+      <td>12 апреля</td>
+      <td>13 апреля</td>
+      <td>14 апреля</td>
+      <td>15 апреля</td>
+    </tr>
+     <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-warning"> 2 </span></th>
+      <td>16 апреля</td>
+      <td>17 апреля</td>
+      <td>18 апреля</td>
+      <td>19 апреля</td>
+      <td>20 апреля</td>
+      <td>21 апреля</td>
+      <td>22 апреля</td>
+    </tr>
+     <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-secondary"> 3 </span></th>
+      <td>23 апреля</td>
+      <td>24 апреля</td>
+      <td>25 апреля</td>
+      <td>26 апреля</td>
+      <td>27 апреля</td>
+      <td>28 апреля</td>
+      <td>29 апреля</td>
+    </tr>
+</tbody>
+
 
 </table>
 
-</div>
+<!-- </div> -->
+<table class="table table-sm table-bordered table-hover table2" id="table2">
+  
+<thead class="" id="theadSec">
+  
+ <tr id="trMain1">
+   <tr class="text-center">
+      <th>Гр№</th>
+      <th>Пн</th>
+      <th>Вт</th>
+      <th>Ср</th>
+      <th>Чт</th>
+      <th>Пт</th>
+      <th class="weekend">Сб</th>
+      <th class="weekend">Вс</th>
+    </tr>
+ </tr>
 
-<hr/ width="70%">
+
+</thead>
+
+<tbody id="tbody2">
+   <tr id="trMain">
+  <th scope="row" class="text-center h4"> <span class="badge badge-secondary"> 3 </span></th>
+  <td>26. 02</td>
+  <td>27. 02</td>
+  <td>28. 02</td>
+  <td>&nbsp1. 03</td>
+  <td>&nbsp2. 03</td>
+  <td>&nbsp3. 03</td>
+  <td>&nbsp4. 03</td>
+ </tr>
+   <tr>
+  <th scope="row" class="text-center h4"><span class="badge badge-primary"> 4 </span></th>
+  <td>&nbsp5.&nbsp03</td>
+  <td>&nbsp6.&nbsp03</td>
+  <td>&nbsp7.&nbsp03</td>
+  <td>&nbsp8.&nbsp03</td>
+  <td>&nbsp9.&nbsp03</td>
+  <td>10. 03</td>
+  <td>11. 03</td>
+ </tr>
+   <tr>
+  <th scope="row" class="text-center h4"><span class="badge badge-success"> 1 </span></th>
+  <td>12. 03</td>
+  <td>13. 03</td>
+  <td>14. 03</td>
+  <td>15. 03</td>
+  <td>16. 03</td>
+  <td>17. 03</td>
+  <td>18. 03</td>
+ </tr>
+   <tr>
+  <th scope="row" class="text-center h4"><span class="badge badge-warning"> 2 </span></th>
+  <td>19. 03</td>
+  <td>20. 03</td>
+  <td>21. 03</td>
+  <td>22. 03</td>
+  <td>23. 03</td>
+  <td>24. 03</td>
+  <td>25. 03</td>
+ </tr>
+   <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-secondary"> 3 </span></th>
+    <td>26. 03</td>
+  <td>27. 03</td>
+  <td>28. 03</td>
+  <td>29. 03</td>
+  <td>30. 03</td>
+  <td>31. 03</td>
+  <td>&nbsp1.&nbsp04</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-primary"> 4 </span></th>
+    <td>&nbsp2.&nbsp04</td>
+  <td>&nbsp3.&nbsp04</td>
+  <td>&nbsp4.&nbsp04</td>
+  <td>&nbsp5.&nbsp04</td>
+  <td>&nbsp6.&nbsp04</td>
+    <td>&nbsp7.&nbsp04</td>
+  <td>&nbsp8.&nbsp04</td>
+    </tr>
+     <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-success"> 1 </span></th>
+    <td>&nbsp9.&nbsp04</td>
+    <td>10. 04</td>
+  <td>11. 04</td>
+  <td>12. 04</td>
+  <td>13. 04</td>
+  <td>14. 04</td>
+  <td>15. 04</td>
+    </tr>
+     <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-warning"> 2 </span></th>
+    <td>16. 04</td>
+    <td>17. 04</td>
+  <td>18. 04</td>
+  <td>19. 04</td>
+  <td>20. 04</td>
+  <td>21. 04</td>
+  <td>22. 04</td>
+    </tr>
+     <tr>
+      <th scope="row" class="text-center h4"><span class="badge badge-secondary"> 3 </span></th>
+    <td>23. 04</td>
+    <td>24. 04</td>
+  <td>25. 04</td>
+  <td>26. 04</td>
+  <td>27. 04</td>
+  <td>28. 04</td>
+  <td>29. 04</td>
+    </tr>
+</tbody>
+
+
+</table>
 
 
  <p class="lead mt-4">График "Христианская жизнь и служение"</p>
@@ -364,6 +492,16 @@
 
 <p class="lead mt-4" id="life">График учебных заданий</p>
 
+<table class="table table-bordered table-sm">
+<thead class="table-warning">
+    <tr style="background-color: #fba9bc">
+      <th scope="col">21 апреля</th>
+      <th scope="col"><u>Районный конгресс</u></th>
+      <th scope="col">(Чернигов)</th>
+    
+    </tr>
+  </thead>
+</table>
 
 <table class="table table-bordered table-sm">
 
