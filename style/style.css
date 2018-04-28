@@ -65,6 +65,9 @@ li {
 .weekend1{
 	background-color: #fbf9f7;
 }
+#tHead1{
+	color: white;
+}
 
 @media screen and (max-width: 992px){
 	#tbody1 td{
