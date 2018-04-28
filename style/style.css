@@ -53,6 +53,17 @@ li {
 	font-size: 0.9em;
 }
 
+#june{
+	color: #7c3030;
+}
+
+#may{
+	color: #3b1796;
+}
+.weekend1{
+	background-color: #fbf9f7;
+}
+
 @media screen and (max-width: 992px){
 	#tbody1 td{
 		font-size: 70%;
